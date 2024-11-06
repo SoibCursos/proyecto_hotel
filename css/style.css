@@ -1,3 +1,11 @@
+/*Variables*/
+:root {
+    --color-primario: rgba(9, 30, 34, 0.678);
+    --color-secundario: rgba(229, 148, 0, 0.9);
+    --hamburger-size: 60px;
+    --menu-speed: 0.75s;
+  }
+
 /* Reset mínimo */
 * {
     margin: 0;
@@ -235,3 +243,15 @@ p {
     }
 }
     */
+    .toggle{
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* z-index: 10; */
+        width: var(--hamburger-size);
+        height: var(--hamburger-size);
+        cursor: pointer;
+        opacity: 0.7;
+        background-color: #f88844;
+    }
+
